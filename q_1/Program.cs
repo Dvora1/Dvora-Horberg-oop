@@ -12,7 +12,6 @@ namespace q_1
     {
         public int X;
     }
-
     internal class Program
     {
         static void ModifyStruct(PointStruct point)

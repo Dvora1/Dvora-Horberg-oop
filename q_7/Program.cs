@@ -26,8 +26,7 @@ namespace q_7
     {
         static void Main()
         {
-            Overflow.Recursion(); // ← כאן מפעילים את הרקורסיה
-
+            Overflow.Recursion();
         }
     }
 }

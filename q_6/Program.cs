@@ -34,7 +34,6 @@ namespace q_6
         static void Main()
         {
             int N = 1000;
-
             long intArrayMemory = MemoryTools.MeasureAllocation(() => new int[N]);
             Console.WriteLine($"Memory for int[{N}] = {intArrayMemory} bytes");
 
